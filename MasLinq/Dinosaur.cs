@@ -16,7 +16,7 @@ namespace MasLinq
 
         public override string ToString()
         {
-            return String.Format("{0} W:{1} H:{2} L:{3}", Name, Weight, Height, Length);
+            return String.Format("{0}", Name);
         }
     }
 }
